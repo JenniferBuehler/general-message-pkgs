@@ -15,8 +15,9 @@ RUN apt-get update && apt-get install -y g++ \
     && rm -rf /var/lib/apt/lists/*
 
 # Install required ROS dependencies
-#RUN apt-get update && apt-get install -y \
-#   && rm -rf /var/lib/apt/lists/
+RUN apt-get update && apt-get install -y \
+    ros-indigo-object-recognition-msgs \
+    && rm -rf /var/lib/apt/lists/
 
 COPY object_msgs /catkin_ws/src/object_msgs
 COPY path_navigation_msgs /catkin_ws/src/path_navigation_msgs
