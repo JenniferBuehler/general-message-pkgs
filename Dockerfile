@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/
 
 COPY object_msgs /catkin_ws/src/object_msgs
+COPY object_msgs_tools /catkin_ws/src/object_msgs_tools
 COPY path_navigation_msgs /catkin_ws/src/path_navigation_msgs
 
 # Build
