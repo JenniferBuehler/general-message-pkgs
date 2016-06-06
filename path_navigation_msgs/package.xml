@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>path_navigation_msgs</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>Actions to navigate a path</description>
 
   <maintainer email="jennifer.e.buehler@gmail.com">Jennifer Buehler</maintainer>
